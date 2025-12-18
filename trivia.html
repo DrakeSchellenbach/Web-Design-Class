@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset='utf-8'>
+            <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+            <title>Trivia</title>
+            <meta name='viewport' content='width=device-width, initial-scale=1'>
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+        </head>
+
+        <body>
+            <div class="w3-container w3-block w3-amber">
+                <h1>Parts in a car trivia</h1>
+            </div>
+
+            <div class="w3-container">
+                <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-center-align w3-purple" style="max-width: 450px;">
+                    Which part burns fuel to make power?</button>
+                
+                        <div id="Demo1" class="w3-hide w3-relative">
+                            <p>Engine</p>
+            
+                        </div>
+                        </div>
+
+                <div class="w3-container">
+                <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-center-align w3-deep-purple" style="max-width: 450px;">
+                    Which component charges the battery?</button>
+                    
+                    <div id="Demo2" class="w3-hide w3-relative">
+                        <p>Alternator</p>
+
+                    </div>
+                    </div>
+
+                
+                <div class="w3-container">
+                <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-center-align w3-indigo" style="max-width: 450px;">
+                    Which fluid cools the engine?</button>
+                
+                    <div id="Demo3" class="w3-hide">
+                        <p>Coolant</p>
+            
+                    </div>
+                    </div>
+                
+                <div class="w3-container">
+                <button onclick="myFunction('Demo4')" class="w3-button w3-block w3-center-align w3-blue" style="max-width: 450px;">
+                    Which part makes contact with the road for traction?</button>
+
+                    <div id="Demo4" class="w3-hide">
+                        <p>Tires</p>
+            
+                    </div>
+                    </div>
+
+                <div class="w3-container">
+                <button onclick="myFunction('Demo5')" class="w3-button w3-block w3-center-align w3-light-blue" style="max-width: 450px;">
+                    Which part allows the car to slow down?</button>
+
+                    <div id="Demo5" class="w3-hide">
+                        <p>Brakes</p>
+                    </div>
+                    </div>
+
+
+
+
+        
+
+        
+        <script>
+            function myFunction(id) {
+              var x = document.getElementById(id);
+              if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+              } else {
+                x.className = x.className.replace(" w3-show", "");
+              }
+            }
+        </script>
+        </body>
+    <footer class="w3-center">Drake Schellenbach, 2025</footer>
+</html>
